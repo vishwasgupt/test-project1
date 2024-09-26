@@ -1,0 +1,34 @@
+footer
+{
+    position: relative;
+    padding: 14px;
+    background-color: #F2F2F2;
+}
+
+footer .main{
+    position: relative;
+    margin-top: 40px;
+}
+
+footer .main a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #343434;
+    font-size: 14px;
+}
+.logo
+{
+    flex-grow: 0px;
+}
+.logo img
+{
+    height: 35px;
+    width:  35px;
+}
+
+.divider
+{
+    width: 100%;
+    border-radius: 2px;
+    border-style: solid;
+}

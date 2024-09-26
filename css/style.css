@@ -1,0 +1,78 @@
+body{
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.p img{
+    height: 333px;
+    object-fit: fill;
+}
+.card-holder .card{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 17rem;
+}
+
+.card-holder .card img
+{
+    margin-top: 9px;
+    height: 154px;
+    width: 100%;
+}
+.card-holder .carousel-inner .carousel-item
+{
+   float:none;
+   display: block;
+   margin-right: 0;
+}
+.card-holder .card .bid .config img
+{
+    margin-top: 0px;
+    height:20px;
+    width: 56px;
+}
+footer
+{
+    position: relative;
+    padding: 14px;
+    background-color: #F2F2F2;
+}
+
+footer .main{
+    position: relative;
+    margin-top: 40px;
+}
+
+footer .main a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #343434;
+    font-size: 14px;
+}
+.logo
+{
+    flex-grow: 0px;
+}
+.logo img
+{
+    height: 35px;
+    width:  35px;
+}
+
+.divider
+{
+    width: 100%;
+    border-radius: 2px;
+    border-style: solid;
+}
+
+@media only screen and (max-width: 600px) {
+    .p img {
+      width: 100%;
+      height: 200px;
+      object-fit: fill;
+    }
+  }
+
+  

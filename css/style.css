@@ -32,20 +32,9 @@ body{
     height:20px;
     width: 56px;
 }
-footer
-{
-    position: relative;
-    padding: 14px;
-    background-color: #F2F2F2;
-}
 
-
-
-.divider
-{
-    width: 100%;
-    border-radius: 2px;
-    border-style: solid;
+footer svg{
+    width: 25px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -54,9 +43,7 @@ footer
       height: 200px;
       object-fit: fill;
     }
-    footer .hed p{
-        
-    }
+   
   }
 
   
